@@ -1,0 +1,6 @@
+steps:
+  # Entrypoint, timeout and environment variables
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    timeout: 10s
+    args: ['info']
