@@ -31,3 +31,7 @@ output "webhook_cloud_deploy_path" {
 output "webhook_cloud_build_path" {
   value = module.instrumentation-events.webhook_cloud_build_path
 }
+
+output "instrumentation_sa_email" {
+  value = module.instrumentation-events.instrumentation_sa_email
+}
